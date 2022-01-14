@@ -31,10 +31,10 @@ public class Arrays__Method__예제 {
 		System.out.println("arr7="+Arrays.toString(arr7)); //랜덤으로 arr7 을 채운다.
 		
 		for(int i:arr7) {
-			char[] graph = new char[i];
+			char[] graph = new char[i];//char 배열 생성 ㅁㅁㅁㅁㅁㅁㅁ graph가 생성한 char배열을 가르키고 있다.
 			Arrays.fill(graph, '*');
-			System.out.println(new String(graph)+i);
-		}
+			System.out.println(new String(graph)+i); //char[]배열을 String으로 바꾸기 String(char 배열)생성자 이용
+		}											//String 배열을 char[]로 바꾸는 방법은 tocharArray()이용
 		
 		String[][] str2D = new String[][] {{"aaa","bbb"},{"AAA","BBB"}};
 		String[][] str2D2 = new String[][] {{"aaa","bbb"},{"AAA","BBB"}};
